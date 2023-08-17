@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 
-def number_line_matplotlib(format="png", filename=datetime.now().strftime("num_line_%d-%m-%Y_%H-%M-%S")):
+def number_line(format="png", filename=datetime.now().strftime("num_line_%d-%m-%Y_%H-%M-%S")):
     fig, ax = plt.subplots()
     # Set size of plot, make bigger than numbers you intend to show
     ax.set_xlim(-7, 7)
@@ -43,4 +43,4 @@ def number_line_matplotlib(format="png", filename=datetime.now().strftime("num_l
 
 
 if __name__ == "__main__":
-    number_line_matplotlib()
+    number_line()

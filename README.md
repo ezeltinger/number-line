@@ -2,6 +2,8 @@
 
 A simple number line generator to show simple inequalities.
 
+![number-line](examples/number-line-minus-5-to-5.png)
+
 To create the python virtual environment:
 
 ```bash
